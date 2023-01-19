@@ -1,0 +1,21 @@
+{
+  "name": "selenium-javascript",
+  "version": "1.0.0",
+  "description": "Automation Testing with Selenium and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": " mocha -- test/*.js --timeout 10000"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^98.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "yarn": ">=1.0.0"
+  }
+}
